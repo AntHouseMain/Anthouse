@@ -1,0 +1,124 @@
+@media only screen and (max-width : 1200px) {
+	.c-news .c-news-items h2 {
+		font-size: 40px;
+		left: 35px;
+	}
+	.uk-projects-slider {
+		p {
+			margin: 0;
+		}
+	}
+}
+
+@media only screen and (max-width : 959px) {
+	#primary-menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		li>a {
+			color: #fff;
+		}
+	}
+	.c-news .c-news-items h2 {
+		font-size: 60px;
+	}
+	.our-team {
+		.our-team-item:nth-last-child(-n+4) {
+			border-bottom: 1px solid rgba(216, 216, 216, 0.7);
+		}
+		// .our-team-item:nth-last-child(-n+3) {
+		// 	border-right:0;
+		// }
+		.our-team-item:nth-last-child(3n+1) {
+			border-right:0;
+		}
+		.our-team-item:nth-last-child(4n+1) {
+			border-right: 1px solid rgba(216, 216, 216, 0.7);
+		}
+		.our-team-item:last-child {
+			border-right:0;
+		}
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.leadership {
+		.c-news .c-news-items h2 {
+			font-size: 34px;
+			left: 50px;
+		}
+		.uk-leadership-tab {
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+	}
+}
+@media only screen and (max-width : 767px) {
+
+}
+@media only screen and (max-width : 640px) {
+	.info-title hr {
+		width: 300px;
+	}
+
+}
+@media only screen and (max-width : 639px) {
+	.our-team {
+		.our-team-item {
+			padding:20px 30px;
+		}
+
+		.our-team-item:nth-last-child(3n+1) {
+			border-right: 1px solid rgba(216, 216, 216, 0.7);
+		}
+		.our-team-item:nth-last-child(2n+1),
+		.our-team-item:nth-last-child(7) {
+			border-right:0;
+		}
+		.our-team-item:last-child {
+			border-right: 0;
+		}
+		.our-team-item:nth-last-child(-n+2) {
+			border-bottom: 0;
+		}
+	}
+
+}
+
+@media only screen and (max-width : 480px) {
+	.just-ask {
+		background-image: none;
+		.just-ask-info {
+			padding-left: 30px;
+			border-left: 0;
+			border-right: 0;
+			.link_CU {
+				bottom: 5px;
+				left: 15px;
+			}
+		}
+	}
+	.c-news .c-news-items h2 {
+		font-size: 30px;
+	}
+	.info-title h2 {
+		font-size: 42px;
+	}
+	.uk-projects-slider {
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+	}
+}
+
+@media only screen and (max-width : 320px) {
+
+}
