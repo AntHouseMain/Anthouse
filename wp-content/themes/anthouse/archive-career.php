@@ -5,10 +5,10 @@ get_header(); ?>
 <div class="uk-image-cereer-top uk-position-relative">
 	<div class="uk-container">
 		<div class="info-title" >
-			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">FIND YOUR DREAM WORK</h2>
+			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('FIND YOUR DREAM WORK','anthouse'); ?></h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				<?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?>
 			</p>
 		</div>
 	</div>
@@ -19,9 +19,9 @@ get_header(); ?>
 		<div uk-grid> 
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
-					<span>VACANCIES</span>
+					<span><?php _e('VACANCIES','anthouse'); ?></span>
 				</h2>				
-				<b>Make  your choice now</b>
+				<b><?php _e('Make  your choice now','anthouse'); ?></b>
 			</div>
 		</div>
 	</div>
@@ -46,13 +46,12 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="uk-width-1-1 uk-width-3-10@s uk-width-2-10@m uk-text-center uk-text-left@s">
-				<button class="uk-job-search-button" type="Submit" name="Search" value="search">SEARCH<i uk-icon="icon: arrow-right; ratio: 1.3"></i></button>
+				<button class="uk-job-search-button" type="Submit" name="Search" value="search"><?php _e('SEARCH','anthouse'); ?><i uk-icon="icon: arrow-right; ratio: 1.3"></i></button>
 			</div>
-			<span class="uk-text-uppercase uk-width-1-1@s uk-width-1-7@m uk-width-1-1 uk-flex uk-flex-center uk-flex-left@m uk-flex-wrap">filter by:</span>
+			<span class="uk-text-uppercase uk-width-1-1@s uk-width-1-7@m uk-width-1-1 uk-flex uk-flex-center uk-flex-left@m uk-flex-wrap"><?php _e('filter by:','anthouse'); ?></span>
 
 			<ul id='jobFilterMenu' 
 			class="uk-width-8-10@m uk-career-tab uk-flex uk-flex-row uk-flex-wrap uk-flex-start">
-			
 			<li>
 				<label>
 					<input data-filter="Cloud_DevOps" class="uk-checkbox uk-job-checkbox" type="checkbox">Cloud & DevOps

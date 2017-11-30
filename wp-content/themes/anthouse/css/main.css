@@ -394,12 +394,6 @@ b {
   height: 0;
 }
 
-.just-ask .just-ask-info .link_CU {
-  position: absolute;
-  left: 0;
-  bottom: 100px;
-}
-
 .just-ask .just-ask-info b {
   color: #fff;
   font-weight: 300;
@@ -1679,9 +1673,11 @@ footer .uk-social a:hover {
 .uk-section-error-404 .uk-eror-404 p {
   position: absolute;
   left: 0;
-  right: 207px;
-  top: 117px;
+  right: 252px;
+  top: 130px;
   font-size: 22px;
+  width: 150px;
+  margin: 0 auto;
 }
 
 /* --== /404 ==-- */

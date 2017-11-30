@@ -3,9 +3,9 @@
 	<div class="uk-image-front-page-top uk-position-relative">
 		<div class="uk-container">
 			<div class="info-title" >
-				<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">WELCOME TO ANTHOUSE</h2>
+				<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('WELCOME TO ANTHOUSE','anthouse'); ?></h2>
 				<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				<p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p>
 			</div>
 		</div>
 	</div>
@@ -17,9 +17,9 @@
 		<div uk-grid> 
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
-					<span>OUR FEATURES</span>
+					<span><?php _e('OUR FEATURES','anthouse'); ?></span>
 				</h2>				
-				<b>Great features for your needs</b>
+				<b><?php _e('Great features for your needs','anthouse'); ?></b>
 			</div>
 		</div>
 		<div class="features-items uk-margin-large-top">
@@ -58,9 +58,9 @@
 		<div uk-grid> 
 			<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
 				<h2 class="uk-heading-line uk-text-uppercase">
-					<span>LATEST PROJECTS</span>
+					<span><?php _e('LATEST PROJECTS','anthouse'); ?></span>
 				</h2>				
-				<b>Look what we had been working on!</b>
+				<b><?php _e('Look what we had been working on!','anthouse'); ?></b>
 			</div>
 		</div>
 		<div uk-grid> 
@@ -104,12 +104,14 @@
 			<div class="uk-width-1-1@s uk-width-2-3@m uk-margin-auto uk-text-center just-ask-info">
 				<div class="uk-container">
 					<h2 class="uk-heading-line uk-text-uppercase">
-						<span>WANT TO LEARN MORE?</span>
+						<span><?php the_field('learn_name'); ?></span>
 					</h2>				
-					<b>Just ask us anything.</b>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur praesentium corporis facilis aspernatur quisquam nulla, molestias eius, excepturi repellendus laudantium veritatis! Error, architecto quod voluptas ab cum eos quo.</p>
+					<b><?php the_field('learn_name_small'); ?></b>
+					<?php  $wp_learn= get_field('learn_description');?> 
+					<p><?php echo wp_trim_words( $wp_learn, 50, ' ...' );
+					?></p>
 					<div class="uk-width-1-1 link_CU">
-						<a href="<?php echo get_page_link( 23 ); ?>">CONTACT US <i uk-icon="icon: arrow-right; ratio: 1.3"></i></a>
+						<a href="<?php echo get_page_link( 23 ); ?>"><?php _e('CONTACT US','anthouse'); ?> <i uk-icon="icon: arrow-right; ratio: 1.3"></i></a>
 					</div>
 					<!-- <div class="test"> 	</div> -->
 				</div>			

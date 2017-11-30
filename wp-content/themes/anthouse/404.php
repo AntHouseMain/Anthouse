@@ -18,12 +18,12 @@ get_header(); ?>
 		</header><!-- .page-header -->
 
 		<div class="page-content uk-text-center uk-eror-404 uk-width-1-1 uk-position-relative">
-			<h4>404</h4>
+			<h4><?php _e('404','anthouse'); ?></h4>
 
-			<p>eror</p>
+			<p><?php _e('eror','anthouse'); ?></p>
 		</div><!-- .page-content -->
 		<div class="uk-width-1-1@s uk-text-center">
-			<h3>Please make sure you entered the URL properly, hit the Back button or go to the <a href="<?php echo site_url()?>"">Homepage.</a></h3>
+			<h3><?php _e('Please make sure you entered the URL properly, hit the Back button or go to the ','anthouse'); ?><a href="<?php echo site_url()?>""><?php _e('Homepage.','anthouse'); ?></a></h3>
 		</div>
 	</div>
 </section><!-- .error-404 -->

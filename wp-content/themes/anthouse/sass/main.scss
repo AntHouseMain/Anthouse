@@ -407,11 +407,11 @@ $slick-opacity-not-active: 0.25 !default;
 		border-left: 90px solid transparent;
 		border-right: 90px solid transparent;
 		height: 0;
-		.link_CU {
-			position: absolute;
-			left: 0;
-			bottom: 100px;
-		}
+		// .link_CU {
+		// 	position: absolute;
+		// 	left: 0;
+		// 	bottom: 100px;
+		// }
 		b {
 			color: #fff;
 			font-weight: 300;
@@ -1622,9 +1622,11 @@ section.uk-news {
 				p {
 					position: absolute;
 					left: 0;
-					right: 207px;
-					top: 117px;
+					right: 252px;
+					top: 130px;
 					font-size: 22px;
+					width: 150px;
+					margin: 0 auto;
 				}
 			}
 		}

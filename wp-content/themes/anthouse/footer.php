@@ -16,30 +16,45 @@
 	<div class="uk-container">
 		<div uk-grid>	
 			<div class="uk-contact-us uk-width-1-3@s uk-width-1-3@m">
-				<h2>CONTACT US</h2>
-				<ul>
-					<li><a  href="tel:+3 (8067)48 735 14">+38(067)-48-735-14</a></li>
-					<li><a  href="tel:+3 (8067)53 678 95">+38(067)-53-678-95</a></li>
-					<li><a  href="mailto: itant.house@gmail.com">itant.house@gmail.com</a></li>
-					<li><a href="">Ukraine, Kharkiv</a></li>
-				</ul>
+				<h2><?php echo get_field('footer_title_1',2) ?></h2>
+				<?php if( have_rows('footer_phone',2) ): ?>
+					<ul>
+						<?php while( have_rows('footer_phone',2) ): the_row(); ?>
+							<li>
+								<a  href="tel:<?php echo get_sub_field('footer_phone_item'); ?>">
+									<?php echo get_sub_field('footer_phone_item',2,2); ?>
+								</a>
+							</li>
+						<?php endwhile; ?>
+						<li>
+							<a href="mailto:<?php echo get_sub_field('footer_mail'); ?>">
+								<?php echo get_field('footer_mail',2); ?>
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo get_field('url_footer_location'); ?>">
+								<?php echo get_field('footer_location',2); ?>
+							</a>
+						</li>
+					</ul>
+				<?php endif; ?>
 			</div>
 			<div class="uk-width-2-3@s uk-width-2-3@m">
-				<h2>ABOUT US</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore earum repellat ipsam nam in provident laborum fuga nemo tenetur, explicabo non praesentium veniam! Numquam ab quos veniam temporibus, asperiores dignissimos!</p>
+				<h2><?php echo get_field('footer_title_2',2) ?></h2>
+				<?php echo get_field('footer_description',2); ?>
 			</div>
 		</div>
 
 		<div uk-grid>
 			<div class="uk-social uk-width-1-1 uk-width-1-3@s uk-width-1-3@m uk-flex uk-flex-row uk-flex-wrap ">
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+				<a href="<?php echo get_field('footer_facebook',2); ?>"></a>
+				<a href="skype:<?php echo get_field('footer_skype',2); ?>"></a>
+				<a href="<?php echo get_field('footer_linkedin',2); ?>"></a>
+				<a href="<?php echo get_field('footer_google_plus',2); ?>"></a>
+				<a href="<?php echo get_field('footer_upwork',2); ?>"></a>
 			</div>
 			<div class="uk-width-1-1 uk-width-2-3@s uk-width-2-3@m uk-flex uk-flex-right@s  uk-flex-left uk-flex-wrap uk-flex-middle">
-				<h3>© 2017 ANTHOUSE, Inc. All Rights Reserved.</h3>
+				<h3><?php echo get_field('footer_copyright',2) ?></h3>
 			</div>
 		</div>
 	</div>

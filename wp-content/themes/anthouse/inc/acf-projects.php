@@ -23,12 +23,7 @@ function register_fields_for_projects() {
 			'name'  => 'projects_technologies',
 			'type'  => 'text',
 			],
-			[
-			'key'   => 'projects_link',
-			'label' => __ ( 'Active link', 'anthouse-theme' ),
-			'name'  => 'projects_link',
-			'type'  => 'url',
-			],
+
 			[
 			'key'   => 'select_filter_tab',
 			'label' => __( 'SELECT FILTER', 'anthouse-theme' ),
