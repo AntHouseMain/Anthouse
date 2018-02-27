@@ -3,18 +3,18 @@
 
 
 get_header(); ?>
-<section class="uk-breadcrumbs-section">
+<!-- <section class="uk-breadcrumbs-section">
 	<div class="uk-container">
 		<?php if( function_exists('all_breadcrumbs') ) all_breadcrumbs('  >  '); ?>
 	</div>
-</section>
+</section> -->
 <section class="uk-section  uk-padding-remove-bottom">
 	<div class="uk-container">
-		<div uk-grid> 
+		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
 					<span>company`s news</span>
-				</h2>				
+				</h2>
 				<b>tay on top of all the action</b>
 			</div>
 		</div>

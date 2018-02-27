@@ -32,6 +32,12 @@ function register_fields_front_page() {
 			'type'  => 'text',
 			],
 			[
+			'key'   => 'latest_projects_link',
+			'label' => __ ( 'Link Project', 'anthouse-theme' ),
+			'name'  => 'link',
+			'type'  => 'text',
+			],
+			[
 			'key'   => 'latest_projects_description',
 			'label' => __ ( 'Description', 'anthouse-theme' ),
 			'name'  => 'description',
@@ -74,7 +80,7 @@ function register_fields_front_page() {
 			],
 			],
 			],
-			
+
 			'location' => [
 			[
 			[
