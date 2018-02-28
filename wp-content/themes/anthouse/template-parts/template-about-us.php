@@ -60,10 +60,6 @@ get_header(); ?>
 				<h2 class="uk-heading-line uk-text-uppercase">
 					<span><?php _e('leadership','anthouse'); ?></span>
 				</h2>
-				<b><?php _e('The managment of our company','anthouse'); ?></b>
-					<span>leadership</span>
-				</h2>
-				<b>The managment of our company</b>
 			</div>
 		</div>
 	</div>
@@ -188,7 +184,7 @@ get_header(); ?>
 	<div class="uk-container">
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-				
+
 				<section class="uk-section our-team">
 					<div class="uk-container">
 						<div uk-grid>
