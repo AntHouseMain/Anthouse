@@ -5,7 +5,11 @@
 			<div class="info-title" >
 				<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('WELCOME TO ANTHOUSE','anthouse'); ?></h2>
 				<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
+<<<<<<< Updated upstream
 				<p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p>
+=======
+				<p></p>
+>>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>

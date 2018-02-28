@@ -11,13 +11,17 @@ get_header(); ?>
 		<div class="info-title" >
 			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('LET’S GET ACQUAINTED','anthouse'); ?></h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
+<<<<<<< Updated upstream
 			<p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p>
+=======
+			<p></p>
+>>>>>>> Stashed changes
 		</div>
 	</div>
 </div>
 
 
-<!--== C-News ==-->	
+<!--== C-News ==-->
 <section class="uk-section c-news">
 	<div class="uk-container">
 		<div uk-grid>
@@ -47,16 +51,22 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-<!--== /C-News ==-->	
+<!--== /C-News ==-->
 
 <section class="uk-section leadership">
 	<div class="uk-container">
-		<div uk-grid> 
+		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
+<<<<<<< Updated upstream
 					<span><?php _e('leadership','anthouse'); ?></span>
 				</h2>				
 				<b><?php _e('The managment of our company','anthouse'); ?></b>
+=======
+					<span>leadership</span>
+				</h2>
+				<b>The managment of our company</b>
+>>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
@@ -110,6 +120,69 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
+<<<<<<< Updated upstream
+=======
+					</li>
+					<li>
+						<div id="second-leadership" class="uk-margin-medium-top uk-card-description uk-animation-fade" uk-grid>
+							<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-4@m uk-text-center uk-text-left@s">
+								<img class="l-image" src="<?php bloginfo('template_directory'); ?>/img/Layer 9.jpg">
+							</div>
+							<div class="uk-width-1-1 uk-width-3-4@s uk-width-3-4@m">
+								<div class="uk-flex uk-flex-column uk-flex-wrap" uk-grid>
+									<div class="uk-width-1-1">
+										<h2>VLAD GORBATKO</h2>
+										<b><span>ANTHOUSE CEO</span> & President</b>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magnam, distinctio id ex voluptatum alias in sunt ipsam error. Odit ipsum nesciunt rem necessitatibus porro provident facilis quod sunt dolore.
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magnam, distinctio id ex voluptatum alias in sunt ipsam error. Odit ipsum nesciunt rem necessitatibus porro provident facilis quod sunt dolore.</p>
+										</div>
+										<div uk-grid>
+											<div class="uk-width-1-1 uk-width-1-1@s uk-width-2-3@m uk-leadership-contacts">
+												<a  href="tel:+3 (8067)48 735 14">+38(067)-48-735-14</a>
+												<a href="mailto: itant.house@gmail.com">itant.house@gmail.com</a>
+											</div>
+											<div class="uk-width-1-1 uk-width-1-1@s uk-width-1-3@m  uk-leadership-social uk-flex uk-flex-row uk-flex-wrap uk-flex-right@m">
+												<a href=""></a>
+												<a href=""></a>
+												<a href=""></a>
+												<a href=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div id="third-leadership" class="uk-margin-medium-top uk-card-description uk-animation-fade" uk-grid>
+								<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-4@m uk-text-center uk-text-left@s">
+									<img class="l-image" src="<?php bloginfo('template_directory'); ?>/img/Layer 11.jpg">
+								</div>
+								<div class="uk-width-1-1 uk-width-3-4@s uk-width-3-4@m">
+									<div class="uk-flex uk-flex-column uk-flex-wrap" uk-grid>
+										<div class="uk-width-1-1">
+											<h2>EVGENIY BUDUKOV</h2>
+											<b><span>ANTHOUSE CEO</span> & President</b>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magnam, distinctio id ex voluptatum alias in sunt ipsam error. Odit ipsum nesciunt rem necessitatibus porro provident facilis quod sunt dolore.
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magnam, distinctio id ex voluptatum alias in sunt ipsam error. Odit ipsum nesciunt rem necessitatibus porro provident facilis quod sunt dolore.</p>
+											</div>
+											<div uk-grid>
+												<div class="uk-width-1-1 uk-width-1-1@s uk-width-2-3@m uk-leadership-contacts">
+													<a  href="tel:+3 (8067)48 735 14">+38(067)-48-735-14</a>
+													<a href="mailto: itant.house@gmail.com">itant.house@gmail.com</a>
+												</div>
+												<div class="uk-width-1-1 uk-width-1-1@s uk-width-1-3@m  uk-leadership-social uk-flex uk-flex-row uk-flex-wrap uk-flex-right@m">
+													<a href=""></a>
+													<a href=""></a>
+													<a href=""></a>
+													<a href=""></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+>>>>>>> Stashed changes
 					</div>
 				</li>
 			<?php endwhile; ?>
@@ -118,6 +191,7 @@ get_header(); ?>
 </div>
 </section>
 
+<<<<<<< Updated upstream
 <section class="uk-section our-team">
 	<div class="uk-container">
 		<div uk-grid> 
@@ -126,6 +200,36 @@ get_header(); ?>
 					<span><?php _e('OUR TEAM','anthouse'); ?></span>
 				</h2>				
 				<b><?php _e('Team of leading developers','anthouse'); ?></b>
+=======
+				<section class="uk-section our-team">
+					<div class="uk-container">
+						<div uk-grid>
+							<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
+								<h2 class="uk-heading-line uk-text-uppercase">
+									<span>OUR TEAM</span>
+								</h2>
+								<b>Team of leading developers</b>
+							</div>
+						</div>
+					</div>
+					<div class="uk-container">
+						<div class="uk-text-center " uk-grid>
+							<?php if( have_rows('about_us_our_team') ): ?>
+								<?php while( have_rows('about_us_our_team') ): the_row();
+								$our_team_image = get_sub_field('our_team_image');
+								$our_team_name = get_sub_field('our_team_name');
+								?>
+								<?php
+								if( !empty($our_team_image) ): ?>
+								<div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m our-team-item">
+									<img class="" src="<?php echo $our_team_image['url']; ?>" alt="<?php echo $our_team_image['alt']; ?>" />
+								<?php endif; ?>
+								<h3><?php echo $our_team_name ?></h3>
+							</div>
+						<?php endwhile; ?>
+					<?php endif; ?>
+				</div>
+>>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
@@ -150,4 +254,8 @@ get_header(); ?>
 </section>
 
 
+<<<<<<< Updated upstream
 <?php get_footer(); ?>
+=======
+		<?php get_footer(); ?>
+>>>>>>> Stashed changes

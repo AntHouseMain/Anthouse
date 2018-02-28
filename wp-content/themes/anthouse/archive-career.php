@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 get_header(); ?>
 
@@ -8,7 +8,11 @@ get_header(); ?>
 			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('FIND YOUR DREAM WORK','anthouse'); ?></h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
 			<p>
+<<<<<<< Updated upstream
 				<?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?>
+=======
+				
+>>>>>>> Stashed changes
 			</p>
 		</div>
 	</div>
@@ -16,12 +20,18 @@ get_header(); ?>
 
 <section class="uk-section">
 	<div class="uk-container">
-		<div uk-grid> 
+		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
+<<<<<<< Updated upstream
 					<span><?php _e('VACANCIES','anthouse'); ?></span>
 				</h2>				
 				<b><?php _e('Make  your choice now','anthouse'); ?></b>
+=======
+					<span>VACANCIES</span>
+				</h2>
+				<b>Make  your choice now</b>
+>>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
@@ -50,14 +60,18 @@ get_header(); ?>
 			</div>
 			<span class="uk-text-uppercase uk-width-1-1@s uk-width-1-7@m uk-width-1-1 uk-flex uk-flex-center uk-flex-left@m uk-flex-wrap"><?php _e('filter by:','anthouse'); ?></span>
 
-			<ul id='jobFilterMenu' 
+			<ul id='jobFilterMenu'
 			class="uk-width-8-10@m uk-career-tab uk-flex uk-flex-row uk-flex-wrap uk-flex-start">
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 			<li>
 				<label>
 					<input data-filter="Cloud_DevOps" class="uk-checkbox uk-job-checkbox" type="checkbox">Cloud & DevOps
 				</label>
 			</li>
-			<li>		
+			<li>
 				<label>
 					<input data-filter="S_M_PR" class="uk-checkbox uk-job-checkbox" type="checkbox">Sales, Marketing & PR
 				</label>
@@ -101,7 +115,7 @@ get_header(); ?>
 			endwhile;
 		else :
 			get_template_part( 'template-parts/content', 'none' );
-		endif; 
+		endif;
 		?>
 		<?php get_template_part( 'template-parts/button-career', '' ); ?>
 	</div>
@@ -112,11 +126,11 @@ get_header(); ?>
 
 <section class="uk-section">
 	<div class="uk-container">
-		<div uk-grid> 
+		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
 					<span>DON’T FIND A SUITABLE VACANCY?</span>
-				</h2>				
+				</h2>
 				<b>Send us your resume, and we will contact you when there is something suitable</b>
 			</div>
 		</div>
