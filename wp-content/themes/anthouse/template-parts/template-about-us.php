@@ -182,16 +182,13 @@ get_header(); ?>
 			<?php endwhile; ?>
 		</ul>
 	<?php endif; ?>
-</div>
+
 </section>
 <section class="uk-section our-team">
 	<div class="uk-container">
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-				<h2 class="uk-heading-line uk-text-uppercase">
-					<span><?php _e('OUR TEAM','anthouse'); ?></span>
-				</h2>
-				<b><?php _e('Team of leading developers','anthouse'); ?></b>
+				
 				<section class="uk-section our-team">
 					<div class="uk-container">
 						<div uk-grid>
