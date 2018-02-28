@@ -32,16 +32,6 @@
 	</div>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'anthouse' ); ?></a>
 	<header class="top-header">
-		<div class="uk-container-expand turquoise">
-			<div class="uk-container">
-				<div uk-grid>
-					<div class="uk-width-1-1@s uk-flex-right@s uk-flex-center uk-flex uk-flex-row uk-flex-wrap uk-translation">
-						<a class="uk-on" href="#">Russian</a>
-						<a  href="#">English</a>
-					</div>
-				</div>
-			</div>	
-		</div>
 		<nav class="uk-container uk-margin-small-bottom uk-margin-small-top" uk-navbar >
 			<div class="uk-navbar-left uk-flex uk-flex-wrap uk-flex-left">
 				<a class="uk-logo" href="<?php echo site_url()?>">
