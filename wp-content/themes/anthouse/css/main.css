@@ -883,7 +883,7 @@ b {
 }
 
 .uk-career .uk-table-job .uk-job-items div:nth-child(2n),
-.uk-career .uk-table-job .uk-job-items div:nth-child(2n+1) {
+.uk-career .uk-table-job .uk-job-items div:nth-child(2n + 1) {
   border-right: 1px solid rgba(198, 198, 198, 0.41);
   padding: 15px 0 15px 62px;
 }
@@ -892,7 +892,7 @@ b {
   border-right: 0;
 }
 
-.uk-career .uk-table-job article:nth-child(2n+1) {
+.uk-career .uk-table-job article:nth-child(2n + 1) {
   background-color: #f6f6f6;
   border-bottom: 1px solid rgba(198, 198, 198, 0.41);
 }
@@ -962,7 +962,7 @@ b {
   color: #212121;
 }
 
-.uk-section-form-career .uk-form-career input[type="submit"] {
+.uk-section-form-career .uk-form-career input[type='submit'] {
   background-color: #38bdb8;
   border: 0;
   border-radius: 0;
@@ -981,22 +981,23 @@ b {
   color: #212121;
 }
 
-.uk-section-form-career .uk-form-career .uk-input, .uk-section-form-career .uk-form-career .uk-select,
-.uk-section-form-career .uk-form-career input[type="text"],
-.uk-section-form-career .uk-form-career input[type="email"],
-.uk-section-form-career .uk-form-career input[type="url"],
-.uk-section-form-career .uk-form-career input[type="password"],
-.uk-section-form-career .uk-form-career input[type="search"],
-.uk-section-form-career .uk-form-career input[type="number"],
-.uk-section-form-career .uk-form-career input[type="tel"],
-.uk-section-form-career .uk-form-career input[type="range"],
-.uk-section-form-career .uk-form-career input[type="date"],
-.uk-section-form-career .uk-form-career input[type="month"],
-.uk-section-form-career .uk-form-career input[type="week"],
-.uk-section-form-career .uk-form-career input[type="time"],
-.uk-section-form-career .uk-form-career input[type="datetime"],
-.uk-section-form-career .uk-form-career input[type="datetime-local"],
-.uk-section-form-career .uk-form-career input[type="color"] {
+.uk-section-form-career .uk-form-career .uk-input,
+.uk-section-form-career .uk-form-career .uk-select,
+.uk-section-form-career .uk-form-career input[type='text'],
+.uk-section-form-career .uk-form-career input[type='email'],
+.uk-section-form-career .uk-form-career input[type='url'],
+.uk-section-form-career .uk-form-career input[type='password'],
+.uk-section-form-career .uk-form-career input[type='search'],
+.uk-section-form-career .uk-form-career input[type='number'],
+.uk-section-form-career .uk-form-career input[type='tel'],
+.uk-section-form-career .uk-form-career input[type='range'],
+.uk-section-form-career .uk-form-career input[type='date'],
+.uk-section-form-career .uk-form-career input[type='month'],
+.uk-section-form-career .uk-form-career input[type='week'],
+.uk-section-form-career .uk-form-career input[type='time'],
+.uk-section-form-career .uk-form-career input[type='datetime'],
+.uk-section-form-career .uk-form-career input[type='datetime-local'],
+.uk-section-form-career .uk-form-career input[type='color'] {
   height: 50px;
   vertical-align: middle;
   display: inline-block;
@@ -1661,6 +1662,10 @@ footer .uk-contact-us li:nth-child(4) a {
   background-position: -4px -2px;
 }
 
+footer .uk-contact-us li:nth-child(5) a {
+  background-position: -4px -2px;
+}
+
 footer .uk-contact-us li a {
   margin-right: 20px;
   color: #fff;
@@ -1679,15 +1684,15 @@ footer .uk-social a {
 }
 
 footer .uk-social a:nth-child(2) {
-  background-position: -57px 0px;
-}
-
-footer .uk-social a:nth-child(3) {
   background-position: -181px 0px;
 }
 
+footer .uk-social a:nth-child(3) {
+  background-position: -116px 0px;
+}
+
 footer .uk-social a:nth-child(4) {
-  background-position: -117px 0px;
+  background-position: -249px 0px;
 }
 
 footer .uk-social a:nth-child(5) {
