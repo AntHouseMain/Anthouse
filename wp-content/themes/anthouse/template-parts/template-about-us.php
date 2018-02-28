@@ -11,11 +11,11 @@ get_header(); ?>
 		<div class="info-title" >
 			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('LET’S GET ACQUAINTED','anthouse'); ?></h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
-<<<<<<< Updated upstream
-			<p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p>
-=======
+
+			<!-- <p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p> -->
+
 			<p></p>
->>>>>>> Stashed changes
+
 		</div>
 	</div>
 </div>
@@ -58,15 +58,12 @@ get_header(); ?>
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
-<<<<<<< Updated upstream
 					<span><?php _e('leadership','anthouse'); ?></span>
-				</h2>				
+				</h2>
 				<b><?php _e('The managment of our company','anthouse'); ?></b>
-=======
 					<span>leadership</span>
 				</h2>
 				<b>The managment of our company</b>
->>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
@@ -120,8 +117,6 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-<<<<<<< Updated upstream
-=======
 					</li>
 					<li>
 						<div id="second-leadership" class="uk-margin-medium-top uk-card-description uk-animation-fade" uk-grid>
@@ -182,7 +177,6 @@ get_header(); ?>
 								</div>
 							</li>
 						</ul>
->>>>>>> Stashed changes
 					</div>
 				</li>
 			<?php endwhile; ?>
@@ -190,17 +184,14 @@ get_header(); ?>
 	<?php endif; ?>
 </div>
 </section>
-
-<<<<<<< Updated upstream
 <section class="uk-section our-team">
 	<div class="uk-container">
-		<div uk-grid> 
+		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
 				<h2 class="uk-heading-line uk-text-uppercase">
 					<span><?php _e('OUR TEAM','anthouse'); ?></span>
-				</h2>				
+				</h2>
 				<b><?php _e('Team of leading developers','anthouse'); ?></b>
-=======
 				<section class="uk-section our-team">
 					<div class="uk-container">
 						<div uk-grid>
@@ -229,14 +220,13 @@ get_header(); ?>
 						<?php endwhile; ?>
 					<?php endif; ?>
 				</div>
->>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
 	<div class="uk-container">
-		<div class="uk-text-center " uk-grid> 
+		<div class="uk-text-center " uk-grid>
 			<?php if( have_rows('about_us_our_team') ): ?>
-				<?php while( have_rows('about_us_our_team') ): the_row(); 
+				<?php while( have_rows('about_us_our_team') ): the_row();
 				$our_team_image = get_sub_field('our_team_image');
 				$our_team_name = get_sub_field('our_team_name');
 				?>
@@ -253,9 +243,5 @@ get_header(); ?>
 </div>
 </section>
 
-
-<<<<<<< Updated upstream
 <?php get_footer(); ?>
-=======
 		<?php get_footer(); ?>
->>>>>>> Stashed changes

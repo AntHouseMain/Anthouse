@@ -8,11 +8,7 @@ get_header(); ?>
 			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('FIND YOUR DREAM WORK','anthouse'); ?></h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
 			<p>
-<<<<<<< Updated upstream
-				<?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?>
-=======
-				
->>>>>>> Stashed changes
+				<!-- <?php _e('','anthouse'); ?> -->
 			</p>
 		</div>
 	</div>
@@ -23,15 +19,12 @@ get_header(); ?>
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
-<<<<<<< Updated upstream
 					<span><?php _e('VACANCIES','anthouse'); ?></span>
-				</h2>				
+				</h2>
 				<b><?php _e('Make  your choice now','anthouse'); ?></b>
-=======
 					<span>VACANCIES</span>
 				</h2>
 				<b>Make  your choice now</b>
->>>>>>> Stashed changes
 			</div>
 		</div>
 	</div>
@@ -62,10 +55,6 @@ get_header(); ?>
 
 			<ul id='jobFilterMenu'
 			class="uk-width-8-10@m uk-career-tab uk-flex uk-flex-row uk-flex-wrap uk-flex-start">
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 			<li>
 				<label>
 					<input data-filter="Cloud_DevOps" class="uk-checkbox uk-job-checkbox" type="checkbox">Cloud & DevOps

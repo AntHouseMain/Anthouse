@@ -5,11 +5,11 @@
 			<div class="info-title" >
 				<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('WELCOME TO ANTHOUSE','anthouse'); ?></h2>
 				<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
-<<<<<<< Updated upstream
-				<p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p>
-=======
+
+				<!-- <p><?php _e('','anthouse'); ?></p> -->
+
 				<p></p>
->>>>>>> Stashed changes
+
 			</div>
 		</div>
 	</div>
@@ -114,7 +114,7 @@
 						<span><?php the_field('learn_name'); ?></span>
 					</h2>
 					<b><?php the_field('learn_name_small'); ?></b>
-					<?php  $wp_learn= get_field('learn_description');?> 
+					<?php  $wp_learn= get_field('learn_description');?>
 					<p><?php echo wp_trim_words( $wp_learn, 50, ' ...' );
 					?></p>
 					<div class="uk-width-1-1 link_CU">
