@@ -38,7 +38,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://goo.gl/maps/zKJSJGhfcc92">
+							<a href="https://goo.gl/maps/MDmRWBU56hN2" target="_blank">
 								<?php echo get_field('footer_location',2); ?>
 							</a>
 						</li>
