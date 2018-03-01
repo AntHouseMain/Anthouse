@@ -37,6 +37,13 @@ a:focus {
   outline: none !important;
 }
 
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #38bdb8;
+  box-shadow: 0 0 5px #38bdb8;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
