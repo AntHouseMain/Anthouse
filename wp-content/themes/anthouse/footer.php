@@ -33,12 +33,12 @@
 							</a>
 						</li>
 						<li>
-							<a href="<?php echo get_sub_field('footer_skype'); ?>">
+							<a href="skype:<?php echo get_field('footer_skype',2); ?>">
 								<?php echo get_field('footer_skype',2); ?>
 							</a>
 						</li>
 						<li>
-							<a href="<?php echo get_field('url_footer_location'); ?>">
+							<a href="https://goo.gl/maps/zKJSJGhfcc92">
 								<?php echo get_field('footer_location',2); ?>
 							</a>
 						</li>
@@ -54,7 +54,6 @@
 		<div uk-grid>
 			<div class="uk-social uk-width-1-1 uk-width-1-3@s uk-width-1-3@m uk-flex uk-flex-row uk-flex-wrap ">
 				<a href="<?php echo get_field('footer_facebook',2); ?>"></a>
-				<!-- <a href="skype:<?php echo get_field('footer_skype',2); ?>"></a> -->
 				<a href="<?php echo get_field('footer_linkedin',2); ?>"></a>
 				<a href="<?php echo get_field('footer_google_plus',2); ?>"></a>
 				<a href="<?php echo get_field('footer_upwork',2); ?>"></a>
