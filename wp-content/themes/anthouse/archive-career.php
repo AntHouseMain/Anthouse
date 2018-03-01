@@ -22,9 +22,6 @@ get_header(); ?>
 					<span><?php _e('VACANCIES','anthouse'); ?></span>
 				</h2>
 				<b><?php _e('Make  your choice now','anthouse'); ?></b>
-					<span>VACANCIES</span>
-				</h2>
-				<b>Make  your choice now</b>
 			</div>
 		</div>
 	</div>

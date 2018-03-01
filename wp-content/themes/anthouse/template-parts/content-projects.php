@@ -17,13 +17,13 @@
 			<div class="uk-width-1-1@s uk-width-1-2@m uk-flex uk-flex-wrap uk-flex-column uk-flex-center uk-flex-wrap ">
 				<div class="uk-filter-projects">
 					<p>
-						<?php 
-						$field = get_field_object('checkbox_filter'); 
+						<?php
+						$field = get_field_object('checkbox_filter');
 						$colors = get_field('checkbox_filter');
 
 						foreach($colors as $key => $val) {
 							$label = $colors[$key];
-							echo $field['choices'][$label]; 
+							echo $field['choices'][$label];
 						}
 						?>
 					</p>
@@ -37,17 +37,17 @@
 					endif;
 					?>
 				</div>
-				<?php 
+				<?php
 				if ( 'post' === get_post_type() ) : ?>
 				<div class="entry-meta">
 					<?php anthouse_posted_on(); ?>
-				</div> 
+				</div>
 				<?php
 				endif; ?>
 				<div class="entry-content">
 					<?php
 					(is_single() &&'post' === get_post_type() )
-					?  the_content()  
+					?  the_content()
 					:the_truncated_post( 300 ) ;
 
 					wp_link_pages( array(
@@ -59,15 +59,15 @@
 					<div class="uk-morelink uk-margin-small-bottom uk-text-uppercase uk-margin-small-top">
 						<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" >Read more <i uk-icon="icon: arrow-right; ratio: 1.5"> </i></a>
 					</div>
-					<div class="social-post uk-margin-small-top">
+					<!-- <div class="social-post uk-margin-small-top">
 						<ul class="uk-flex uk-flex-row ">
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 			</div>
-			<hr class="uk-margin-small-bottom"> 
+			<hr class="uk-margin-small-bottom">
 		</div>
-	</article> 
+	</article>

@@ -53,7 +53,7 @@ get_header(); ?>
 </section>
 <!--== /C-News ==-->
 
-<section class="uk-section leadership">
+<!-- <section class="uk-section leadership">
 	<div class="uk-container">
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
@@ -179,7 +179,7 @@ get_header(); ?>
 		</ul>
 	<?php endif; ?>
 
-</section>
+</section> -->
 <section class="uk-section our-team">
 	<div class="uk-container">
 		<div uk-grid>
