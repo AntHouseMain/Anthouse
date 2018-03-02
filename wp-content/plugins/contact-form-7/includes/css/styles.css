@@ -21,22 +21,22 @@ div.wpcf7 .screen-reader-response {
 
 div.wpcf7-mail-sent-ok {
   border: 2px solid #398f14;
-  background-color: #398f14;
+  background-color: #b2e49c;
 }
 
 div.wpcf7-mail-sent-ng {
   border: 2px solid #ff0000;
-  background-color: #ff0000;
+  background-color: #eab0b0;
 }
 
 div.wpcf7-spam-blocked {
   border: 2px solid #ffa500;
-  background-color: #ffa500;
+  background-color: #f9dfb0;
 }
 
 div.wpcf7-validation-errors {
   border: 2px solid #f7e700;
-  background-color: #f7e700;
+  background-color: #f1edb2;
 }
 
 .wpcf7-form-control-wrap {
