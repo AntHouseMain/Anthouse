@@ -6,7 +6,7 @@
 				<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('WELCOME TO ANTHOUSE','anthouse'); ?></h2>
 				<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
 
-				<!-- <p><?php _e('','anthouse'); ?></p> -->
+				<p><?php _e('Experience creating a result','anthouse'); ?></p>
 
 				<p></p>
 
