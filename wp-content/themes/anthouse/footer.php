@@ -53,10 +53,10 @@
 
 		<div uk-grid>
 			<div class="uk-social uk-width-1-1 uk-width-1-3@s uk-width-1-3@m uk-flex uk-flex-row uk-flex-wrap ">
-				<a href="<?php echo get_field('footer_facebook',2); ?>"></a>
-				<a href="<?php echo get_field('footer_linkedin',2); ?>"></a>
-				<a href="<?php echo get_field('footer_google_plus',2); ?>"></a>
-				<a href="<?php echo get_field('footer_upwork',2); ?>"></a>
+				<a href="<?php echo get_field('footer_facebook',2); ?>" target="_blank"></a>
+				<a href="<?php echo get_field('footer_linkedin',2); ?>" target="_blank"></a>
+				<a href="<?php echo get_field('footer_google_plus',2); ?>" target="_blank"></a>
+				<a href="<?php echo get_field('footer_upwork',2); ?>" target="_blank"></a>
 			</div>
 			<div class="uk-width-1-1 uk-width-2-3@s uk-width-2-3@m uk-flex uk-flex-right@s  uk-flex-left uk-flex-wrap uk-flex-middle">
 				<h3><?php echo get_field('footer_copyright',2) ?></h3>
