@@ -7,49 +7,51 @@ Template Name: About Us
 get_header(); ?>
 
 <div class="uk-image-aboutus-top uk-position-relative">
-	<div class="uk-container">
-		<div class="info-title" >
-			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('LET’S GET ACQUAINTED','anthouse'); ?></h2>
-			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
+    <div class="uk-container">
+        <div class="info-title">
+            <h2 class="uk-text-uppercase"
+                uk-scrollspy="cls: uk-animation-scale-up; repeat: true"><?php _e('LET’S GET ACQUAINTED', 'anthouse'); ?></h2>
+            <hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
 
-			<!-- <p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit','anthouse'); ?></p> -->
+            <!-- <p><?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit', 'anthouse'); ?></p> -->
 
-			<p></p>
+            <p></p>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 
 <!--== C-News ==-->
 <section class="uk-section c-news">
-	<div class="uk-container">
-		<div uk-grid>
-			<div class=" uk-width-1-1 uk-width-1-2@s uk-width-1-2@m uk-position-relative uk-text-uppercase">
-				<img src="<?php bloginfo('template_directory'); ?>/img/birds-20.jpg">
-				<div class="c-news-items">
-					<h2><?php _e('COMPANY’S <br>NEWS','anthouse'); ?></h2>
-					<a href="<?php echo get_post_type_archive_link( 'news' );?>"><?php _e('look more','anthouse'); ?><i uk-icon="icon: arrow-right; ratio: 1.3"></i></a>
-				</div>
-			</div>
-			<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-2@m">
-				<?php if( have_rows('accordion_info') ): ?>
-					<ul uk-accordion>
-						<?php while( have_rows('accordion_info') ): the_row(); ?>
-							<li >
-								<h3 class="uk-accordion-title">
-									<?php echo get_sub_field('accordion_title'); ?>
-								</h3>
-								<div class="uk-accordion-content">
-									<?php echo get_sub_field('accordion_description'); ?>
-								</div>
-							</li>
-						<?php endwhile; ?>
-					</ul>
-				<?php endif; ?>
-			</div>
-		</div>
-	</div>
+    <div class="uk-container">
+        <div uk-grid>
+            <div class=" uk-width-1-1 uk-width-1-2@s uk-width-1-2@m uk-position-relative uk-text-uppercase">
+                <img src="<?php bloginfo('template_directory'); ?>/img/birds-20.jpg">
+                <div class="c-news-items">
+                    <h2><?php _e('COMPANY’S <br>NEWS', 'anthouse'); ?></h2>
+                    <a href="<?php echo get_post_type_archive_link('news'); ?>"><?php _e('look more', 'anthouse'); ?><i
+                            uk-icon="icon: arrow-right; ratio: 1.3"></i></a>
+                </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-2@m">
+                <?php if (have_rows('accordion_info')): ?>
+                    <ul uk-accordion>
+                        <?php while (have_rows('accordion_info')): the_row(); ?>
+                            <li>
+                                <h3 class="uk-accordion-title">
+                                    <?php echo get_sub_field('accordion_title'); ?>
+                                </h3>
+                                <div class="uk-accordion-content">
+                                    <?php echo get_sub_field('accordion_description'); ?>
+                                </div>
+                            </li>
+                        <?php endwhile; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
 </section>
 <!--== /C-News ==-->
 
@@ -58,15 +60,15 @@ get_header(); ?>
 		<div uk-grid>
 			<div class="uk-width-1-1 uk-text-center">
 				<h2 class="uk-heading-line uk-text-uppercase">
-					<span><?php _e('leadership','anthouse'); ?></span>
+					<span><?php _e('leadership', 'anthouse'); ?></span>
 				</h2>
 			</div>
 		</div>
 	</div>
 	<div class="uk-container uk-margin-medium-top">
-		<?php if( have_rows('leadership_team') ): ?>
+		<?php if (have_rows('leadership_team')): ?>
 			<ul class="uk-tab uk-leadership-tab" data-uk-tab>
-				<?php while( have_rows('leadership_team') ): the_row(); ?>
+				<?php while (have_rows('leadership_team')): the_row(); ?>
 					<li class="uk-active">
 						<a href="#">
 							<h4><?php echo get_sub_field('leadership_name'); ?></h4>
@@ -76,15 +78,15 @@ get_header(); ?>
 				<?php endwhile; ?>
 			</ul>
 		<?php endif; ?>
-		<?php if( have_rows('leadership_team') ): ?>
+		<?php if (have_rows('leadership_team')): ?>
 			<ul class="uk-switcher uk-margin">
-				<?php while( have_rows('leadership_team') ): the_row(); ?>
+				<?php while (have_rows('leadership_team')): the_row(); ?>
 					<li>
 						<div id="first-leadership" class="uk-margin-medium-top uk-card-description uk-animation-fade" uk-grid>
 							<div class="uk-width-1-1 uk-width-1-4@s uk-width-1-4@m uk-flex uk-flex-center uk-flex-column uk-flex-middle">
 								<?php $leadership_image = get_sub_field('leadership_image');
 
-								if( !empty($leadership_image) ): ?>
+    if (!empty($leadership_image)): ?>
 								<img class="l-image" src="<?php echo $leadership_image['url']; ?>" alt="<?php echo $leadership_image['alt']; ?>"  />
 							<?php endif; ?>
 						</div>
@@ -181,60 +183,46 @@ get_header(); ?>
 
 </section> -->
 <section class="uk-section our-team">
-	<div class="uk-container">
-		<div uk-grid>
-			<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
+    <div class="uk-container">
+        <div uk-grid>
+            <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
 
-				<section class="uk-section our-team">
-					<div class="uk-container">
-						<div uk-grid>
-							<div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-								<h2 class="uk-heading-line uk-text-uppercase">
-									<span>OUR TEAM</span>
-								</h2>
-								<b>Team of leading developers</b>
-							</div>
-						</div>
-					</div>
-					<div class="uk-container">
-						<div class="uk-text-center " uk-grid>
-							<?php if( have_rows('about_us_our_team') ): ?>
-								<?php while( have_rows('about_us_our_team') ): the_row();
-								$our_team_image = get_sub_field('our_team_image');
-								$our_team_name = get_sub_field('our_team_name');
-								?>
-								<?php
-								if( !empty($our_team_image) ): ?>
-								<div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m our-team-item">
-									<img class="" src="<?php echo $our_team_image['url']; ?>" alt="<?php echo $our_team_image['alt']; ?>" />
-								<?php endif; ?>
-								<h3><?php echo $our_team_name ?></h3>
-							</div>
-						<?php endwhile; ?>
-					<?php endif; ?>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="uk-container">
-		<div class="uk-text-center " uk-grid>
-			<?php if( have_rows('about_us_our_team') ): ?>
-				<?php while( have_rows('about_us_our_team') ): the_row();
-				$our_team_image = get_sub_field('our_team_image');
-				$our_team_name = get_sub_field('our_team_name');
-				?>
-				<?php
-				if( !empty($our_team_image) ): ?>
-				<div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m our-team-item">
-					<img class="" src="<?php echo $our_team_image['url']; ?>" alt="<?php echo $our_team_image['alt']; ?>" />
-				<?php endif; ?>
-				<h3><?php echo $our_team_name ?></h3>
-			</div>
-		<?php endwhile; ?>
-	<?php endif; ?>
-</div>
-</div>
+                <section class="uk-section our-team">
+                    <div class="uk-container">
+                        <div uk-grid>
+                            <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
+                                <h2 class="uk-heading-line uk-text-uppercase">
+                                    <span>OUR TEAM</span>
+                                </h2>
+                                <b>Team of leading developers</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-container">
+                        <div class="uk-text-center " uk-grid>
+                            <?php if (have_rows('about_us_our_team')): ?>
+                                <?php while (have_rows('about_us_our_team')): the_row();
+                                    $our_team_image = get_sub_field('our_team_image');
+                                    $our_team_name = get_sub_field('our_team_name');
+                                    ?>
+                                    <?php
+                                    if (!empty($our_team_image)): ?>
+                                        <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m our-team-item">
+                                        <img class="" src="<?php echo $our_team_image['sizes']['teammate_image']; ?>"
+                                             alt="<?php echo $our_team_image['alt']; ?>"/>
+                                    <?php endif; ?>
+                                    <h3 class="uk-margin-remove"><?php echo $our_team_name ?></h3>
+                                    <?php echo '<p class="uk-margin-remove uk-text-muted">';
+                                    the_sub_field('our_team_position');
+                                    echo '</p>'; ?>
+                                    </div>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+            </div>
+        </div>
 </section>
 
 <?php get_footer(); ?>
-		<?php get_footer(); ?>
+<?php get_footer(); ?>
