@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="info-title" >
 			<h2 class="uk-text-uppercase" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">CONTACT US </h2>
 			<hr uk-scrollspy="cls: uk-animation-fade; repeat: true">
-			<p>Ukraine, Kharkiv  |  itant.house@gmail.com  |   (063) 782 06 36  |  (096) 176 76 98
+			<p>Ukraine, Kharkiv  |  itant.house@gmail.com  |   +380(93)-708-8232  |  +1 929-999-2034
 			</p>
 		</div>
 	</div>
