@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="9IIKeV9pRvecrP2_ULrPFoAPsVpzOYdwIem1HCn2Dzk" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
