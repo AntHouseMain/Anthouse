@@ -182,7 +182,7 @@ get_header(); ?>
 	<?php endif; ?>
 
 </section> -->
-<section class="uk-section our-team">
+<!-- <section class="uk-section our-team">
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
@@ -222,7 +222,7 @@ get_header(); ?>
                     </div>
             </div>
         </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>
 <?php get_footer(); ?>
